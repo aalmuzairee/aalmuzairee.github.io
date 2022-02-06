@@ -1,0 +1,120 @@
+.container {
+    width:100%;
+    max-width:800px;
+    border:0px;
+    border-spacing:0px;
+    /* border-collapse:collapse; */
+    margin-right:auto;
+    margin-left:auto;
+    table-layout: fixed;
+}
+
+.lineContainer{
+    width: 100%;
+    /* max-width: 600px; */
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.block {
+    /* margin: 2.5%; */
+    padding: 2.5%;
+}
+
+/* From bootstrap */
+.d-flex {
+    display: flex !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.align-items-start {
+    align-items: start !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.justify-content-around {
+    justify-content: space-around !important;
+}
+
+/* Custom tags */
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+
+a:focus,
+a:hover {
+    color: #f09228;
+    text-decoration: none;
+}
+
+body {
+    font-size: 19px;
+    /* font-size: 1.25vw; */
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+}
+
+name {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 180%;
+}
+
+heading {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+}
+
+school {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 85%;
+}
+
+
+.paper {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    vertical-align: center;
+}
+
+.paper .thumbnail {
+    padding: 20px;
+    width: 30%;
+}
+
+.paper img {
+    width: 100%;
+}
+
+.paper .content {
+    padding: 20px;
+    width: 60%;
+}
+
+.paper .title {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+}
+
+strong {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 70%;
+}
+
