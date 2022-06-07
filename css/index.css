@@ -51,8 +51,9 @@
 /* Custom tags */
 
 a {
-    color: brown;
+    color: blue;
     text-decoration: none;
+    font-weight: 500;
 }
 
 
