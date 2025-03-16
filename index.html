@@ -40,9 +40,9 @@
 							<name>Abdulaziz Almuzairee</name>
 							<br>
 							<school>
-							Ph.D. Student
+							Ph.D. Candidate
 							<br>
-							<a href="https://cse.ucsd.edu">Computer Science and Engineering </a>
+							Robust Robot Learning
 							<br>
 							<a href="https://ucsd.edu">University of California San Diego</a>
 							<br>
@@ -62,14 +62,14 @@
 		<div class="section about">
 			<div class="pad" style="padding-top: 0.5em;">
 				<p>
-					I'm a Ph.D. student in Computer Science and Engineering at UC San Diego, advised by <a href="https://www.hichristensen.com/">Professor Henrik Christensen</a>. 
+					I'm a Ph.D. Candidate in Computer Science and Engineering at UC San Diego, advised by <a href="https://www.hichristensen.com/">Professor Henrik Christensen</a>. 
 					Prior to that, I earned my Masters in Electrical and Computer Engineering from <a href="https://www.ece.cmu.edu/">Carnegie Mellon University</a>, 
 					and my Bachelors in Computer Engineering from <a href="https://www.sdsu.edu/">San Diego State University</a>.
 				</p>
 				<p>
 					My general research interests lie in the interplay between <b>robotics</b>, <b>reinforcement learning</b> and 
 					<b>computer vision</b>. In a future where robots are ubiquitous, how can we better train these agents to adapt to the real world? 
-					My current work is on visual reinforcement learning, but you can find more below. 
+					My current work is on visual reinforcement learning for robots, but you can find more below. 
 				</p>
 			</div>
 		</div>
@@ -77,6 +77,20 @@
 		<div class="section">
 			<div class="pad">
 				<h3 >Publications</h3>
+				<!-- <div class="paper">
+					<div class="thumbnail">
+						<img src="???"/>
+					</div>
+					<div class="content">
+						<b>Merging and Disentangling Views in Visual Reinforcement Learning for Robotic Manipulation</b> <br>
+						<em><b>Abdulaziz Almuzairee</b>, Rohan Patil, Dwait Bhatt, Henrik I. Christensen </em><br>
+						<b>Under Review</b> 
+						<a href="???">[paper]</a>
+						<a href="https://aalmuzairee.github.io/mad">[website]</a>
+						<a href="https://github.com/aalmuzairee/mad">[code]</a>
+						<a href="#" class="cite-link" data-paper-id="almuzairee2025merging">[cite]</a>
+					</div>
+				</div> -->
 				<div class="paper">
 					<div class="thumbnail">
 						<img src="images/papers/sada.gif"/>
@@ -88,8 +102,9 @@
 						<a href="https://arxiv.org/abs/2405.17416">[paper]</a>
 						<a href="https://aalmuzairee.github.io/SADA/">[website]</a>
 						<a href="https://github.com/aalmuzairee/dmcgb2">[code]</a>
+						<a href="#" class="cite-link" data-paper-id="almuzairee2024recipe">[cite]</a>
 					</div>
-			</div>
+				</div>
 				<div class="paper">
 						<div class="thumbnail">
 							<img src="images/papers/xalign.png" />
@@ -99,28 +114,30 @@
 							<em>Shubhankar Borse, Marvin Klingner, Varun Ravi Kumar, Hong Cai, <b>Abdulaziz Almuzairee</b>, Senthil Yogamani, Fatih Porikli </em><br>
 							<b>WACV 2023</b> 
 							<a href="https://arxiv.org/abs/2210.06778">[paper]</a>
+							<a href="#" class="cite-link" data-paper-id="borse2023xalign">[cite]</a>
 						</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- <div class="section">
-			<div class="pad">
-				<h3 >Experience</h3>
-				<div style="max-width: 600px; margin: 0 auto;">
-					<div class="work"><div class="date"> Aug 2021 - Present </div> <div class="content"> Graduate Researcher <a href="https://www.ucsd.edu/">UCSD</a></div></div>
-					<hr>	
-					<div class="work"><div class="date"> Jun 2022 - Sep 2022 </div> <div class="content"> Research Intern <a href="https://www.qualcomm.com/">Qualcomm AI</a></div></div>
-					<hr>
-					<div class="work"><div class="date"> Aug 2020 - Mar 2021 </div> <div class="content"> Graduate Researcher <a href="https://www.cmu.edu/">CMU</a></div></div>
-				</div>
-			</div>
-		</div> -->
-
 
 		<div class="section" style="margin-left: auto; margin-right: auto; text-align: center; padding-top: 4em; font-size: 50%;">
-			Updated 2024 © 
+			Updated 2025 © 
  		</div>
+
+
+		<!-- Citation Modal -->
+		<div id="citationModal" class="modal">
+			<div class="modal-content">
+			  <span class="close">&times;</span>
+			  <h4>BibTeX Citation</h4>
+			  <pre id="bibtexContent"></pre>
+			  <div class="button-container">
+				<button id="copyButton" class="copy-btn">Copy to Clipboard</button>
+			  </div>
+			</div>
+		</div>
+		<script src="./js/cite.js"></script>
 
 
 	</body>
