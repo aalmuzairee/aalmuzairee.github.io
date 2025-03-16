@@ -73,6 +73,9 @@ document.addEventListener('DOMContentLoaded', function() {
     return;
   }
 
+  // Ensure the modal is hidden initially
+  modal.style.display = "none";
+  
   // Get the <span> element that closes the modal
   const span = document.getElementsByClassName("close")[0];
   
@@ -95,7 +98,13 @@ document.addEventListener('DOMContentLoaded', function() {
       
       const bibtex = bibtexEntries[paperId];
       if (bibtex) {
+        // Clear and update content first
         bibtexContent.textContent = bibtex;
+        
+        // Force a reflow before changing display property
+        void modal.offsetWidth;
+        
+        // Show the modal
         modal.style.display = "block";
       } else {
         console.error("No BibTeX entry found for paper ID:", paperId);

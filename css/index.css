@@ -176,6 +176,7 @@ strong {
 
 /* Citation style */
 
+/* Citation style */
 .modal {
     display: none;
     position: fixed;
@@ -186,10 +187,11 @@ strong {
     height: 100%;
     overflow: auto;
     background-color: rgba(0,0,0,0.4);
-}
-
-
-.modal-content {
+    will-change: opacity;
+    isolation: isolate;
+  }
+  
+  .modal-content {
     background-color: #fefefe;
     margin: 10% auto; 
     padding: 25px;
@@ -199,7 +201,10 @@ strong {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     text-align: center; 
-}
+    position: relative;
+    z-index: 1001;
+    transform: translateZ(0);
+  }
   
 .modal h4 {
     margin-top: 0;
