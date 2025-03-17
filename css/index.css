@@ -174,7 +174,6 @@ strong {
     text-align: right;
 }
 
-/* Citation style */
 
 /* Citation style */
 .modal {
@@ -191,20 +190,20 @@ strong {
     isolation: isolate;
   }
   
-  .modal-content {
+.modal-content {
     background-color: #fefefe;
     margin: 10% auto; 
     padding: 25px;
     border: 1px solid #888;
-    width: 90%; 
-    max-width: 800px; 
+    width: 60%; 
+    max-width: 600px; 
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     text-align: center; 
     position: relative;
     z-index: 1001;
     transform: translateZ(0);
-  }
+}
   
 .modal h4 {
     margin-top: 0;
