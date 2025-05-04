@@ -1,14 +1,15 @@
 const rawBibtexEntries = {
   "almuzairee2024recipe": 
-  `@misc{almuzairee2024recipe,
-    title={A Recipe for Unbounded Data Augmentation in Visual Reinforcement Learning}, 
-    author={Abdulaziz Almuzairee and Nicklas Hansen and Henrik I. Christensen},
-    year={2024},
-    eprint={2405.17416},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG},
-    url={https://arxiv.org/abs/2405.17416}, 
+  `@article{almuzairee2024recipe,
+    title={A Recipe for Unbounded Data Augmentation in Visual Reinforcement Learning},
+    author={Almuzairee, Abdulaziz and Hansen, Nicklas and Christensen, Henrik I},
+    journal={Reinforcement Learning Journal},
+    volume={1},
+    pages={130--157},
+    year={2024}
   }`,
+
+
   "borse2023xalign": 
   `@inproceedings{borse2023xalign,
     title={X-Align: Cross-modal cross-view alignment for bird's-eye-view segmentation},
