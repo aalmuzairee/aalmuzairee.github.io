@@ -1,4 +1,15 @@
 const rawBibtexEntries = {
+  "almuzairee2025merging":
+  `@misc{almuzairee2025merging,
+    title={Merging and Disentangling Views in Visual Reinforcement Learning for Robotic Manipulation}, 
+    author={Abdulaziz Almuzairee and Rohan Patil and Dwait Bhatt and Henrik I. Christensen},
+    year={2025},
+    eprint={2505.04619},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2505.04619}, 
+  }`,
+
   "almuzairee2024recipe": 
   `@article{almuzairee2024recipe,
     title={A Recipe for Unbounded Data Augmentation in Visual Reinforcement Learning},
