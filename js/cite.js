@@ -1,13 +1,11 @@
 const rawBibtexEntries = {
   "almuzairee2025merging":
-  `@misc{almuzairee2025merging,
-    title={Merging and Disentangling Views in Visual Reinforcement Learning for Robotic Manipulation}, 
-    author={Abdulaziz Almuzairee and Rohan Patil and Dwait Bhatt and Henrik I. Christensen},
+  `@inproceedings{almuzairee2025merging,
+    title={Merging and Disentangling Views in Visual Reinforcement Learning for Robotic Manipulation},
+    author={Abdulaziz Almuzairee and Rohan Prashant Patil and Dwait Bhatt and Henrik I Christensen},
+    booktitle={9th Annual Conference on Robot Learning},
     year={2025},
-    eprint={2505.04619},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG},
-    url={https://arxiv.org/abs/2505.04619}, 
+    url={https://openreview.net/forum?id=zK2SK6WbYn}
   }`,
 
   "almuzairee2024recipe": 
@@ -51,7 +49,8 @@ function formatBibTeX(bibtex) {
     // Check if this is a field (contains =) or the closing brace
     if (line.includes('=')) {
       // This is a field, format it with consistent spacing
-      const [field, value] = line.split('=').map(part => part.trim());
+      const [field, ...valueParts] = line.split('=').map(part => part.trim());
+      const value = valueParts.join('=');
       // Add 2-space indentation and ensure proper spacing around equals sign
       // Remove trailing comma for proper handling
       const valuePart = value.endsWith(',') ? value : value + ',';
