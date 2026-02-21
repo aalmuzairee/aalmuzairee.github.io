@@ -184,6 +184,18 @@ school {
     box-shadow: 0 2px 5px rgba(0,0,0,0.08);
     padding: 0;
     margin-left: 1.5em;
+    position: relative;
+}
+
+.paper .thumbnail::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
 }
 
 .thumbnail-media {

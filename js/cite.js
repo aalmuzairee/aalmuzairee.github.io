@@ -18,7 +18,6 @@ const rawBibtexEntries = {
     year={2024}
   }`,
 
-
   "borse2023xalign": 
   `@inproceedings{borse2023xalign,
     title={X-Align: Cross-modal cross-view alignment for bird's-eye-view segmentation},
