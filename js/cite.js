@@ -1,13 +1,10 @@
 const rawBibtexEntries = {
   "almuzairee2026squint":
-  `@misc{almuzairee2026squint,
-      title={Squint: Fast Visual Reinforcement Learning for Sim-to-Real Robotics}, 
-      author={Abdulaziz Almuzairee and Henrik I. Christensen},
-      year={2026},
-      eprint={2602.21203},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2602.21203}, 
+  `@article{almuzairee2026squint,
+    title={Squint: Fast Visual Reinforcement Learning for Sim-to-Real Robotics}, 
+    author={Almuzairee, Abdulaziz and Christensen, Henrik I.},
+    journal={arXiv preprint arXiv:2602.21203},
+    year={2026}
   }`,
   "almuzairee2025merging":
   `@inproceedings{almuzairee2025merging,
