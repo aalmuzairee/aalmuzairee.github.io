@@ -128,7 +128,12 @@ school {
 
 email {
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 85%;
+}
+jobtitle {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 90%;
+    color: #555;
 }
 
 .about {
@@ -292,6 +297,35 @@ email {
     margin: 0;
     padding: 0;
 }
+
+/* Teaching */
+.paper .thumbnail.term-card {
+    flex-direction: column;
+    text-align: center;
+    box-shadow: none;
+    background-color: rgba(52, 152, 219, 0.1);
+}
+
+.paper .thumbnail.term-card::after {
+    display: none;
+}
+
+.term-card .term {
+    font-weight: 600;
+    color: #3498db;
+    line-height: 1.15;
+}
+
+.term-card .term-school {
+    font-size: 0.72em;
+    color: #666;
+    margin-top: 0.15em;
+}
+
+.course-gap {
+    margin-top: 0.7em;
+}
+
 
 /* Links */
 .paper-link, .cite-link {
@@ -457,7 +491,7 @@ pre#bibtexContent {
     .paper .thumbnail {
         width: 70%;
         height: auto;
-        /* aspect-ratio: 16/9; */
+        aspect-ratio: 2 / 1;
         margin-bottom: 0.5em;
         margin-left: auto;
         margin-right: auto;
